@@ -6,8 +6,8 @@ import (
 	"github.com/gin-gonic/gin"
 )
 
-func DeleteOppeningHadnler(ctx *gin.Context) {
+func DeleteOpeningHadnler(ctx *gin.Context) {
 	ctx.JSON(http.StatusOK, gin.H{
-		"msg": "DELETE Oppening",
+		"msg": "DELETE Opening",
 	})
 }

@@ -6,8 +6,8 @@ import (
 	"github.com/gin-gonic/gin"
 )
 
-func UpdateOppeningHadnler(ctx *gin.Context) {
+func UpdateOpeningHadnler(ctx *gin.Context) {
 	ctx.JSON(http.StatusOK, gin.H{
-		"msg": "PUT Oppening",
+		"msg": "PUT Opening",
 	})
 }

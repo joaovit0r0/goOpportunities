@@ -11,10 +11,10 @@ Função responsável por criar e agrupar as rotas da aplicação
 func initializeRoutes(router *gin.Engine) {
 	v1 := router.Group("api/v1")
 	{
-		v1.GET("/oppening", handler.ShowOppeningHadnler)
-		v1.GET("/oppenings", handler.ListOppeningHadnler)
-		v1.POST("/oppening", handler.CreateOppeningHadnler)
-		v1.PUT("/oppening", handler.UpdateOppeningHadnler)
-		v1.DELETE("/oppening", handler.DeleteOppeningHadnler)
+		v1.GET("/opening", handler.ShowOpeningHadnler)
+		v1.GET("/openings", handler.ListOpeningHadnler)
+		v1.POST("/opening", handler.CreateOpeningHadnler)
+		v1.PUT("/opening", handler.UpdateOpeningHadnler)
+		v1.DELETE("/opening", handler.DeleteOpeningHadnler)
 	}
 }
