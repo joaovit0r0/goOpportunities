@@ -5,10 +5,11 @@ import (
 	"github.com/joaovit0r0/goOpportunities/handler"
 )
 
-/*
-Função responsável por criar e agrupar as rotas da aplicação
-*/
+// This function is responsible to creating and grouping
+// the application route
 func initializeRoutes(router *gin.Engine) {
+	// Initialize
+	handler.InitializeHandler()
 	v1 := router.Group("api/v1")
 	{
 		v1.GET("/opening", handler.ShowOpeningHadnler)

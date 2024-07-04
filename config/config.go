@@ -6,7 +6,7 @@ import (
 	"gorm.io/gorm"
 )
 
-// Declaração uma variável global
+// Declaring global variables
 var (
 	db     *gorm.DB
 	logger *Logger
